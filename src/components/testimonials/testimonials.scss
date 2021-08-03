@@ -1,0 +1,43 @@
+@import '../../global.scss';
+
+.testimonials {
+  padding-top: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  h1{
+      margin: 0;
+      font-size: 3em;
+      font-weight: 700;
+  }
+
+  .container{
+    width: 90vw;
+    max-width: $maxWidth;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2.8rem
+  }
+}
+
+
+  @media (max-width: 668px) {
+    .testimonials {
+      height: auto;
+      h1 {
+        font-size: 2em
+      }
+
+      .container {
+        overflow-y: scroll;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3rem;
+        place-items: center
+      }
+    }
+}
