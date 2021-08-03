@@ -1,2 +1,4 @@
-# my-portfolio
-Created with CodeSandbox
+# My Portfolio
+Created with 
+1. React
+2. SASS
