@@ -89,13 +89,31 @@
   }
 }
 
+@media (max-width: 800px){
+  .navbar {
+    .nav-center {
+      .left {
+        gap: .675rem;
+        a{
+          font-size: 1.5em
+        }
+        .infoContainer {
+          span {
+            font-size: .875em
+          }
+        }
+      }
+    }
+  }
+}
+
   @media (max-width: 668px) {
     .navbar{
       height: 50px;
       .nav-center{
         .left{
           a {
-            font-size: 1.5em;
+            font-size: 1.3em;
           }
           .infoContainer{
             display: none;
