@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
           <div className="infoContainer">
             <SiMinutemailer className="icon" />
-            <span>me@ahmed.com</span>
+            <span>ahmedaitziane@gmail.com</span>
           </div>
         </div>
         <div className="right">

@@ -1,15 +1,15 @@
-import React from 'react'
-import './sidebar.scss'
- import { SiMinutemailer } from 'react-icons/si'
-import { RiSmartphoneFill } from 'react-icons/ri'
-import { PortfolioContext } from '../../context'
+import React from "react";
+import "./sidebar.scss";
+import { SiMinutemailer } from "react-icons/si";
+import { RiSmartphoneFill } from "react-icons/ri";
+import { PortfolioContext } from "../../context";
 
 const SideBar = () => {
-  const { isMenuOpen, toggleMenu } = React.useContext(PortfolioContext)
+  const { isMenuOpen, toggleMenu } = React.useContext(PortfolioContext);
 
   return (
     <section
-      className={`${isMenuOpen ? 'sidebar showMenu' : 'sidebar'}`}
+      className={`${isMenuOpen ? "sidebar showMenu" : "sidebar"}`}
       id="sidebar"
     >
       <ul>
@@ -35,10 +35,10 @@ const SideBar = () => {
       </div>
       <div className="infoContainer">
         <SiMinutemailer className="icon" />
-        <span>me@ahmed.com</span>
+        <span>ahmedaitziane@gmail.com</span>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SideBar
+export default SideBar;
